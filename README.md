@@ -220,7 +220,3 @@ git branch -M main
 git remote add origin https://github.com/<your-username>/Autonomous-Drone-Flight-Telemetry.git
 git push -u origin main
 ```
-
-## Interview Summary
-
-> “The project simulates drone telemetry in C++ and evaluates raw roll, pitch and altitude data to produce NORMAL, WARNING or FAILSAFE states. A Linux kernel watchdog driver is used separately to monitor whether the C++ monitoring application is still alive. The application sends periodic heartbeats, and the kernel watchdog reports a timeout when the heartbeat stops.”
