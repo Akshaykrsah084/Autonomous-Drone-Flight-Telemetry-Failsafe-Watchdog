@@ -204,19 +204,3 @@ The `docs/` folder contains the six stages used for the capstone:
 
 `docs/UML.md` contains the simple class and interaction diagrams.
 
-## Scope Kept Intentionally Small
-
-This project does **not** include real drone hardware, GPS, ROS, MAVLink, AI/ML, a database, networking, a web dashboard, a flight controller or advanced sensor-fusion algorithms. The goal is a small project that is easy to understand, demonstrate and explain in an interview.
-
-## GitHub Submission
-
-Initialize Git in the project folder, then push the source and documentation to GitHub:
-
-```bash
-git init
-git add .
-git commit -m "Initial capstone project"
-git branch -M main
-git remote add origin https://github.com/<your-username>/Autonomous-Drone-Flight-Telemetry.git
-git push -u origin main
-```
